@@ -5,11 +5,7 @@
   height="300"
 />
 </a>
-<br>
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=milcho0604)](https://github.com/milcho0604/github-readme-stats)
-<br>
-[![Solved.ac
-프로필](http://mazassumnida.wtf/api/generate_badge?boj=golf1585)](https://solved.ac/golf1585)
-
-
-
+<p>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=milcho0604&show_icons=true&include_all_commits=true&bg_color=30,333333,000000&title_color=fff&text_color=fff&icons=true&theme=radical">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=milcho0604&layout=compact&bg_color=30,333333,000000&title_color=fff&text_color=fff&icons=true&theme=radical">
+</p>
