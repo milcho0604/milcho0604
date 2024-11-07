@@ -11,6 +11,34 @@
 | TODAKTODAK-FE  | 병원 예약 및 관리 서비스 프론트엔드 (환자, 병원 운영자, 관리자 기능 포함)                     | CloudFront 및 Route 53                        | MSA        | Prometheus 및 Grafana     | [토닥-프론트](https://github.com/milcho0604/TodakTodak_frontend.git) |
 | TODAKTODAK-BE  | 병원 예약 및 관리 서비스 백엔드 (환자, 병원 운영자, 관리자 기능 포함)                         | Kubernetes (K8s)                              | MSA        | Prometheus 및 Grafana     | [토닥-백엔드](https://github.com/milcho0604/TodakTodak_backend.git) |
 
+## 🛠️ 기술 스택
+
+### Languages
+![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+
+### Frameworks & Libraries
+![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat&logo=spring&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white)
+
+### DevOps & Infrastructure
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
+
+### Monitoring & Visualization
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)
+
+### Databases & Messaging
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat&logo=mariadb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat&logo=apache-kafka&logoColor=white)
+
+
 ## Some of my Github Stats
 <p align=left> <img src=https://komarev.com/ghpvc/?username=milcho0604 alt=milcho0604 /> </p>
 <p>
