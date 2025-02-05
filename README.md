@@ -9,11 +9,12 @@
 
 | 프로젝트       | 설명                                                                                           | 배포 방식                                     | 설계       | 모니터링 도구             | 기간                  | 깃 링크         |
 |----------------|------------------------------------------------------------------------------------------------|-----------------------------------------------|------------|---------------------------|-----------------------|-----------------|
+| TODAKTODAK-FE  | 병원 예약 및 관리 서비스 프론트엔드 (환자, 병원 운영자, 관리자 기능 포함)                     | CloudFront 및 Route 53                        | MSA        | Prometheus 및 Grafana     | 24.09.11 ~ 24.11.06  | [토닥-프론트](https://github.com/milcho0604/TodakTodak_frontend.git) |
+| TODAKTODAK-BE  | 병원 예약 및 관리 서비스 백엔드 (환자, 병원 운영자, 관리자 기능 포함)                         | Kubernetes (K8s)                              | MSA        | Prometheus 및 Grafana     | 24.09.11 ~ 24.11.06  | [토닥-백엔드](https://github.com/milcho0604/TodakTodak_backend.git) |
 | TEENKIRI       | 초등학생을 위한 온라인 교육 플랫폼의 프론트엔드 및 백엔드를 포함한 통합 프로젝트               | CloudFront 및 Route 53, Kubernetes (K8s)      | Monolithic | 없음                      | 24.07.02 ~ 24.09.05  | [틴키리-통합](https://github.com/milcho0604/TEENKIRI.git) |
 | TEENKIRI-FE    | 초등학생을 위한 온라인 교육 플랫폼 프론트엔드                                                  | CloudFront 및 Route 53                        | Monolithic | 없음                      | 24.07.02 ~ 24.09.05  | [틴키리-프론트](https://github.com/milcho0604/teenkiri_front.git) |
 | TEENKIRI-BE    | 초등학생을 위한 온라인 교육 플랫폼 백엔드                                                      | Kubernetes (K8s)                              | Monolithic | 없음                      | 24.07.02 ~ 24.09.05  | [틴키리-백엔드](https://github.com/milcho0604/teenkiri_k8s_back.git) |
-| TODAKTODAK-FE  | 병원 예약 및 관리 서비스 프론트엔드 (환자, 병원 운영자, 관리자 기능 포함)                     | CloudFront 및 Route 53                        | MSA        | Prometheus 및 Grafana     | 24.09.11 ~ 24.11.06  | [토닥-프론트](https://github.com/milcho0604/TodakTodak_frontend.git) |
-| TODAKTODAK-BE  | 병원 예약 및 관리 서비스 백엔드 (환자, 병원 운영자, 관리자 기능 포함)                         | Kubernetes (K8s)                              | MSA        | Prometheus 및 Grafana     | 24.09.11 ~ 24.11.06  | [토닥-백엔드](https://github.com/milcho0604/TodakTodak_backend.git) |
+
 
 
 ## 🛠️ 기술 스택
