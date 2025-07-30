@@ -15,7 +15,6 @@
 | TEENKIRI-BE    | 초등학생을 위한 온라인 교육 플랫폼 백엔드                                                      | Kubernetes (K8s)                              | Monolithic | 없음                      | 24.07.02 ~ 24.09.05  | [틴키리-백엔드](https://github.com/milcho0604/teenkiri_k8s_back.git) |
 
 
-
 ## 🛠️ 기술 스택
 
 ### Languages
