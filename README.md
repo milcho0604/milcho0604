@@ -1,4 +1,4 @@
-## milcho, 탐구하고 실행하기
+## milcho, 탐구하고 실행하기 !
 [![Gmail Badge](https://img.shields.io/badge/-milcho0604@gmail.com-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:milcho0604@gmail.com)](mailto:milcho0604@gmail.com) 
 [![Velog Badge](https://img.shields.io/badge/-Velog-green?style=flat&logo=velog&logoColor=white&link=https://velog.io/@milcho0604/posts)](https://velog.io/@milcho0604/posts) 
 [![Github Badge](https://img.shields.io/badge/-milcho0604-grey?style=flat&logo=github&logoColor=white&link=https://github.com/milcho0604/)](https://github.com/milcho0604) 
