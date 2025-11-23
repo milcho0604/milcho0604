@@ -13,7 +13,7 @@
 | TEENKIRI       | 초등학생을 위한 온라인 교육 플랫폼의 프론트엔드 및 백엔드를 포함한 통합 프로젝트               | CloudFront 및 Route 53, Kubernetes (K8s)      | Monolithic | 없음                      | 24.07.02 ~ 24.09.05  | [틴키리-통합](https://github.com/milcho0604/TEENKIRI.git) |
 | TEENKIRI-FE    | 초등학생을 위한 온라인 교육 플랫폼 프론트엔드                                                  | CloudFront 및 Route 53                        | Monolithic | 없음                      | 24.07.02 ~ 24.09.05  | [틴키리-프론트](https://github.com/milcho0604/teenkiri_front.git) |
 | TEENKIRI-BE    | 초등학생을 위한 온라인 교육 플랫폼 백엔드                                                      | Kubernetes (K8s)                              | Monolithic | 없음                      | 24.07.02 ~ 24.09.05  | [틴키리-백엔드](https://github.com/milcho0604/teenkiri_k8s_back.git) |
-
+| Universal Decoder  | 다양한 인코딩 형식을 자동으로 감지하고 디코딩하는 Chrome 확장 프로그램                    | Chrome extensions                        | Monolithic        | 없음     | 25.11.15 ~ ing  | [Universal Decoder](https://github.com/milcho0604/universal-decoder) |
 
 ## 🛠️ 기술 스택
 
