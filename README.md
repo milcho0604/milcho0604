@@ -50,7 +50,7 @@
 ## Some of my Github Stats!
 <p align=left> <img src=https://komarev.com/ghpvc/?username=milcho0604 alt=milcho0604 /> </p>
 <p>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=milcho0604&show_icons=true&include_all_commits=true&bg_color=30,333333,000000&title_color=fff&text_color=fff&icons=true&theme=radical">
+  <!-- <img height="180em" src="https://github-readme-stats.vercel.app/api?username=milcho0604&show_icons=true&include_all_commits=true&bg_color=30,333333,000000&title_color=fff&text_color=fff&icons=true&theme=radical"> -->
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=milcho0604&layout=compact&bg_color=30,333333,000000&title_color=fff&text_color=fff&icons=true&theme=radical">
 </p>
 
