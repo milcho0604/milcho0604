@@ -2,7 +2,6 @@
 [![Gmail Badge](https://img.shields.io/badge/-milcho0604@gmail.com-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:milcho0604@gmail.com)](mailto:milcho0604@gmail.com) 
 [![Velog Badge](https://img.shields.io/badge/-Velog-green?style=flat&logo=velog&logoColor=white&link=https://velog.io/@milcho0604/posts)](https://velog.io/@milcho0604/posts) 
 [![Github Badge](https://img.shields.io/badge/-milcho0604-grey?style=flat&logo=github&logoColor=white&link=https://github.com/milcho0604/)](https://github.com/milcho0604) 
-[![PortfolioBadge](https://img.shields.io/badge/-Portfolio-2563eb?style=flat&logo=vercel&logoColor=white&link=https://kimchanghyun-portfolio.vercel.app)](https://kimchanghyun-portfolio.vercel.app)
 
 
 <p align='left'>안녕하세요 새로운 것을 탐구하고 실행하는 것을 좋아하는 백엔드 개발자 김창현입니다!😎</p>
