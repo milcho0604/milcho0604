@@ -28,9 +28,9 @@ I am a backend engineer working on **FLOW**, a collaboration platform. My intere
 [**Live service**](https://moilga.com) · [**Source code**](https://github.com/milcho0604/daypoll)
 
 <p align="center">
-  <img src="assets/moilga-main.png" alt="moilga latest main screen" width="300">
+  <img src="assets/moilga-main.png" alt="moilga latest main screen" width="300" align="top">
   &nbsp;&nbsp;
-  <img src="assets/moilga-results.png" alt="moilga live poll results with ranked dates" width="300">
+  <img src="assets/moilga-results.png" alt="moilga live poll results with ranked dates" width="300" align="top">
 </p>
 
 - 날짜별·사람별 실시간 투표, 동률 순위, 불참 표시, 일정 확정과 `.ics` 내보내기를 제공합니다.
