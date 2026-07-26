@@ -39,13 +39,13 @@ I am a backend engineer working on **FLOW**, a collaboration platform. My intere
 
 ## Open source contributions
 
-**2 merged · 1 approved, awaiting merge · 1 awaiting review**
+**3 merged · 1 awaiting review**
 
 - **VeXell/pm2-prom-module** · [✅ Merged PR #16](https://github.com/VeXell/pm2-prom-module/pull/16)<br>
   Fixed stale dynamic metric snapshots when a metric becomes an empty series.
 - **VeXell/pm2-prom-module-client** · [✅ Merged PR #1](https://github.com/VeXell/pm2-prom-module-client/pull/1)<br>
   Replaced an `any` IPC metrics payload with a type inferred from `prom-client`.
-- **prometheus/client_js** · [🟢 Approved PR #786](https://github.com/prometheus/client_js/pull/786)<br>
+- **prometheus/client_js** · [✅ Merged PR #786](https://github.com/prometheus/client_js/pull/786)<br>
   Exported public metric types and added TypeScript consumer coverage.
 - **Microsoft TypeScript Website** · [🟡 PR #3615 · awaiting review](https://github.com/microsoft/TypeScript-Website/pull/3615)<br>
   Documented implicit export visibility in declaration-file modules with verified examples.
