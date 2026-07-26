@@ -66,12 +66,6 @@ I am a backend engineer working on **FLOW**, a collaboration platform. My intere
 | **Observability** | Prometheus, Grafana, structured metrics and load testing |
 | **Frontend & mobile** | Next.js, Vue.js, React Native |
 
-## GitHub
-
-<p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=milcho0604&layout=compact&theme=transparent&hide_border=true" alt="Top languages">
-</p>
-
 <details>
 <summary>More activity</summary>
 
