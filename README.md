@@ -33,38 +33,77 @@ I am a backend engineer working on **FLOW**, a collaboration platform. My intere
   <img src="assets/moilga-results.png" alt="moilga live poll results with ranked dates" width="320">
 </p>
 
-- 날짜별·사람별 실시간 투표, 동률 순위, 불참 표시, 일정 확정과 `.ics` 내보내기를 제공합니다.
-- 닉네임과 선택형 PIN만 사용하며, 같은 사용자의 여러 기기 복원과 실시간 동기화를 지원합니다.
-- API·DB·백업은 Docker로 직접 운영하고, Cloudflare Tunnel을 통해 외부 인바운드 포트 없이 공개합니다.
-- CI, 배포, 인증서 만료 확인, uptime 점검, DB 백업과 오래된 데이터 정리를 자동화했습니다.
-- Built with **Next.js 16, NestJS 11, PostgreSQL 16, Socket.IO, Docker, Cloudflare, Vercel, and GitHub Actions**.
+- 회원가입 없이 날짜별·사람별 실시간 투표부터 동률 순위, 불참 표시, 일정 확정과 `.ics` 내보내기까지 제공합니다.
+- 닉네임과 선택형 PIN으로 여러 기기에서 투표를 복원하고, Socket.IO와 폴링 fallback으로 결과를 실시간 동기화합니다.
+- **Next.js 16, NestJS 11, PostgreSQL 16** 기반으로 API·DB·백업을 Docker에서 직접 운영하며, Cloudflare Tunnel·CI/CD·uptime 점검·백업과 데이터 정리를 자동화했습니다.
 
 ## Open source contributions
 
-| Project | Contribution | Link |
-|---|---|---|
-| **VeXell/pm2-prom-module** | Fixed stale dynamic metric snapshots when a metric becomes an empty series. | [Merged PR #16](https://github.com/VeXell/pm2-prom-module/pull/16) |
-| **VeXell/pm2-prom-module-client** | Replaced an `any` IPC metrics payload with a type inferred from `prom-client`. | [Merged PR #1](https://github.com/VeXell/pm2-prom-module-client/pull/1) |
-| **prometheus/client_js** | Exported public metric types and added TypeScript consumer coverage. | [Approved PR #786](https://github.com/prometheus/client_js/pull/786) |
-| **Microsoft TypeScript Website** | Documented implicit export visibility in declaration-file modules with verified examples. | [PR #3615 · review pending](https://github.com/microsoft/TypeScript-Website/pull/3615) |
+**2 merged · 1 approved · 1 in review**
+
+- **VeXell/pm2-prom-module** — Fixed stale dynamic metric snapshots when a metric becomes an empty series. [✅ Merged PR #16](https://github.com/VeXell/pm2-prom-module/pull/16)
+- **VeXell/pm2-prom-module-client** — Replaced an `any` IPC metrics payload with a type inferred from `prom-client`. [✅ Merged PR #1](https://github.com/VeXell/pm2-prom-module-client/pull/1)
+- **prometheus/client_js** — Exported public metric types and added TypeScript consumer coverage. [🟢 Approved PR #786](https://github.com/prometheus/client_js/pull/786)
+- **Microsoft TypeScript Website** — Documented implicit export visibility in declaration-file modules with verified examples. [🟡 PR #3615 · in review](https://github.com/microsoft/TypeScript-Website/pull/3615)
 
 ## Selected projects
 
-| Project | What I built | Stack |
-|---|---|---|
-| [**TODAKTODAK**](https://github.com/milcho0604/TodakTodak_backend) | 병원 예약·관리 플랫폼 / Hospital reservation and management platform ([Frontend](https://github.com/milcho0604/TodakTodak_frontend)) | Spring, Vue.js, Kubernetes, Kafka, Prometheus, Grafana |
-| [**MealPlan**](https://github.com/milcho0604/MealPlanning) | 식단 계획 모바일 앱 / Mobile meal-planning app | React Native, NestJS, Turborepo, Supabase |
-| **Published Chrome Extensions** | [Universal Decoder](https://github.com/milcho0604/universal-decoder): 인코딩 자동 감지·디코딩 · [Emoji Pocket](https://github.com/milcho0604/EMOJI-POCKET): 빠른 이모지 검색 | Chrome Extension, TypeScript |
+### 🏥 [TODAKTODAK](https://github.com/milcho0604/TodakTodak_backend)
+
+실시간 소아과 예약·대기 현황과 비대면 진료를 구현한 팀 프로젝트로, **한화시스템 BEYOND SW Camp 7기 최종 프로젝트 1위**를 수상했습니다.<br>
+A real-time pediatric reservation and telemedicine platform. **1st-place final project at Hanwha Systems BEYOND SW Camp.**
+
+`Spring` `Vue.js` `Kubernetes` `Kafka` `Prometheus` `Grafana` · [Frontend](https://github.com/milcho0604/TodakTodak_frontend)
+
+### 🥗 [MealPlan](https://github.com/milcho0604/MealPlanning)
+
+가족·그룹이 식단과 냉장고 재료, 쇼핑 목록을 함께 관리하고 알림을 받는 모바일 앱입니다.<br>
+A mobile app for shared meal planning, pantry management, shopping lists, and scheduled notifications.
+
+`React Native` `Expo` `NestJS` `Turborepo` `Supabase` `AWS S3`
+
+### 🧩 Published Chrome extensions
+
+- **[Universal Decoder](https://github.com/milcho0604/universal-decoder)** — URL, Base64, JWT 등 10가지 이상의 인코딩을 자동 감지해 로컬에서 디코딩합니다. [Chrome Web Store](https://chromewebstore.google.com/detail/universal-decoder-all-in/ghkcchkhafjdhahkmkbakfedbbifdibb)
+- **[Emoji Pocket](https://github.com/milcho0604/EMOJI-POCKET)** — 한글·영문 검색, 즐겨찾기, 최근 사용과 기기 간 동기화를 지원합니다. [Chrome Web Store](https://chromewebstore.google.com/detail/%EC%9D%B4%EB%AA%A8%EC%A7%80-%ED%8F%AC%EC%BC%93/nopjdllffljcogdfcilmhhbjjjanoccj)
 
 ## Tech I work with
 
-| Area | Technologies |
-|---|---|
-| **Backend** | ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=000) ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white) ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) |
-| **Data & messaging** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white) |
-| **Platform & operations** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) |
-| **Observability** | ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white) ![k6](https://img.shields.io/badge/k6-7D64FF?style=flat-square&logo=k6&logoColor=white) |
-| **Frontend & mobile** | ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white) ![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=000) |
+**Backend**
+
+![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=000)
+![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+
+**Data & messaging**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+
+**Platform & operations**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+**Observability**
+
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+![k6](https://img.shields.io/badge/k6-7D64FF?style=flat-square&logo=k6&logoColor=white)
+
+**Frontend & mobile**
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=000)
 
 <details>
 <summary>More activity</summary>
