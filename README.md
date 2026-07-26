@@ -33,7 +33,7 @@ I am a backend engineer working on **FLOW**, a collaboration platform. My intere
   <img src="assets/moilga-results.png" alt="moilga live poll results with ranked dates" width="320">
 </p>
 
-- 회원가입 없이 날짜별·사람별 실시간 투표부터 동률 순위, 불참 표시, 일정 확정과 `.ics` 내보내기까지 제공합니다.
+- 직접 기획·개발·운영하는 개인 프로젝트로, 회원가입 없이 날짜별·사람별 실시간 투표부터 일정 확정과 `.ics` 내보내기까지 제공합니다.
 - 닉네임과 선택형 PIN으로 여러 기기에서 투표를 복원하고, Socket.IO와 폴링 fallback으로 결과를 실시간 동기화합니다.
 - **Next.js 16, NestJS 11, PostgreSQL 16** 기반으로 API·DB·백업을 Docker에서 직접 운영하며, Cloudflare Tunnel·CI/CD·uptime 점검·백업과 데이터 정리를 자동화했습니다.
 
@@ -41,10 +41,14 @@ I am a backend engineer working on **FLOW**, a collaboration platform. My intere
 
 **2 merged · 1 approved · 1 in review**
 
-- **VeXell/pm2-prom-module** — Fixed stale dynamic metric snapshots when a metric becomes an empty series. [✅ Merged PR #16](https://github.com/VeXell/pm2-prom-module/pull/16)
-- **VeXell/pm2-prom-module-client** — Replaced an `any` IPC metrics payload with a type inferred from `prom-client`. [✅ Merged PR #1](https://github.com/VeXell/pm2-prom-module-client/pull/1)
-- **prometheus/client_js** — Exported public metric types and added TypeScript consumer coverage. [🟢 Approved PR #786](https://github.com/prometheus/client_js/pull/786)
-- **Microsoft TypeScript Website** — Documented implicit export visibility in declaration-file modules with verified examples. [🟡 PR #3615 · in review](https://github.com/microsoft/TypeScript-Website/pull/3615)
+- **VeXell/pm2-prom-module** · [✅ Merged PR #16](https://github.com/VeXell/pm2-prom-module/pull/16)<br>
+  Fixed stale dynamic metric snapshots when a metric becomes an empty series.
+- **VeXell/pm2-prom-module-client** · [✅ Merged PR #1](https://github.com/VeXell/pm2-prom-module-client/pull/1)<br>
+  Replaced an `any` IPC metrics payload with a type inferred from `prom-client`.
+- **prometheus/client_js** · [🟢 Approved PR #786](https://github.com/prometheus/client_js/pull/786)<br>
+  Exported public metric types and added TypeScript consumer coverage.
+- **Microsoft TypeScript Website** · [🟡 PR #3615 · in review](https://github.com/microsoft/TypeScript-Website/pull/3615)<br>
+  Documented implicit export visibility in declaration-file modules with verified examples.
 
 ## Selected projects
 
@@ -53,12 +57,13 @@ I am a backend engineer working on **FLOW**, a collaboration platform. My intere
 실시간 소아과 예약·대기 현황과 비대면 진료를 구현한 팀 프로젝트로, **한화시스템 BEYOND SW Camp 7기 최종 프로젝트 1위**를 수상했습니다.<br>
 A real-time pediatric reservation and telemedicine platform. **1st-place final project at Hanwha Systems BEYOND SW Camp.**
 
+**Role:** Backend · Frontend · Deployment<br>
 `Spring` `Vue.js` `Kubernetes` `Kafka` `Prometheus` `Grafana` · [Frontend](https://github.com/milcho0604/TodakTodak_frontend)
 
 ### 🥗 [MealPlan](https://github.com/milcho0604/MealPlanning)
 
-가족·그룹이 식단과 냉장고 재료, 쇼핑 목록을 함께 관리하고 알림을 받는 모바일 앱입니다.<br>
-A mobile app for shared meal planning, pantry management, shopping lists, and scheduled notifications.
+가족·그룹이 식단과 냉장고 재료, 쇼핑 목록을 함께 관리하고 알림을 받는 개인 프로젝트입니다.<br>
+A personal mobile project for shared meal planning, pantry management, shopping lists, and scheduled notifications.
 
 `React Native` `Expo` `NestJS` `Turborepo` `Supabase` `AWS S3`
 
