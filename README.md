@@ -4,8 +4,8 @@
 
 ### Backend Engineer · Reliability · Observability
 
-문제를 재현하고, 측정하고, 운영 가능한 시스템으로 해결합니다.<br>
-I reproduce problems, measure them, and turn the findings into reliable systems.
+“누군가 하겠지”를 기다리지 않습니다. 문제를 재현하고, 측정하고, 직접 해결합니다.<br>
+I don’t wait for someone else to solve it. I reproduce the problem, measure it, and build the solution myself.
 
 [![GitHub](https://img.shields.io/badge/GitHub-milcho0604-181717?style=flat-square&logo=github)](https://github.com/milcho0604)
 [![Email](https://img.shields.io/badge/Email-milcho0604%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:milcho0604@gmail.com)
