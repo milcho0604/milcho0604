@@ -1,70 +1,124 @@
-## 👋 안녕하세요, 백엔드 개발자 김창현입니다
+<div align="center">
 
-'누군가 하겠지' 대신 "어떻게 하면 더 효율적일까"를 끊임없이 고민합니다.  
-현재 협업툴 **플로우**를 개발하며, 불편한 건 직접 만들어 해결하고 있습니다.
+# Changhyun Kim
 
-[![Gmail Badge](https://img.shields.io/badge/-milcho0604@gmail.com-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:milcho0604@gmail.com)](mailto:milcho0604@gmail.com)
-[![Velog Badge](https://img.shields.io/badge/-Velog-green?style=flat&logo=velog&logoColor=white&link=https://velog.io/@milcho0604/posts)](https://velog.io/@milcho0604/posts)
-[![Github Badge](https://img.shields.io/badge/-milcho0604-grey?style=flat&logo=github&logoColor=white&link=https://github.com/milcho0604/)](https://github.com/milcho0604)
+### Backend Engineer · Reliability · Observability
 
----
+“누군가 하겠지”를 기다리지 않습니다. 문제를 재현하고, 측정하고, 직접 해결합니다.<br>
+I don’t wait for someone else to solve it. I reproduce the problem, measure it, and build the solution myself.
 
-## 🗂️ 프로젝트
+[![GitHub](https://img.shields.io/badge/GitHub-milcho0604-181717?style=flat-square&logo=github)](https://github.com/milcho0604)
+[![Email](https://img.shields.io/badge/Email-milcho0604%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:milcho0604@gmail.com)
+[![Velog](https://img.shields.io/badge/Velog-Technical_Writing-20C997?style=flat-square&logo=velog&logoColor=white)](https://velog.io/@milcho0604/posts)
 
-| 프로젝트 | 설명 | 배포 방식 | 설계 | 모니터링 | 기간 | 링크 |
-|----------|------|-----------|------|----------|------|------|
-| TODAKTODAK-FE | 병원 예약 및 관리 서비스 프론트엔드 | CloudFront + Route 53 | MSA | Prometheus + Grafana | 24.09 ~ 24.11 | [바로가기](https://github.com/milcho0604/TodakTodak_frontend.git) |
-| TODAKTODAK-BE | 병원 예약 및 관리 서비스 백엔드 | Kubernetes | MSA | Prometheus + Grafana | 24.09 ~ 24.11 | [바로가기](https://github.com/milcho0604/TodakTodak_backend.git) |
-| MealPlan | 식단 관리 앱 (React Native + NestJS) | Render.com + Supabase | Monorepo (Turborepo) | Expo EAS | 25.03 ~ ing | [바로가기](https://github.com/milcho0604/MealPlanning) |
-| TEENKIRI | 초등학생 온라인 교육 플랫폼 | CloudFront + K8s | Monolithic | - | 24.07 ~ 24.09 | [바로가기](https://github.com/milcho0604/TEENKIRI.git) |
-| Universal-Decoder | 다양한 인코딩을 자동 감지·디코딩하는 Chrome 확장 프로그램 | Chrome Extensions | Monolithic | - | 24.11 ~ ing | [GitHub](https://github.com/milcho0604/universal-decoder)  · [스토어](https://chromewebstore.google.com/detail/universal-decoder-all-in/ghkcchkhafjdhahkmkbakfedbbifdibb?hl=ko) |
-| EMOJI-POCKET | 어디서든 빠르게 이모지를 사용할 수 있는 Chrome 확장 프로그램 | Chrome Extensions | Monolithic | - | 24.11 ~ ing | [GitHub](https://github.com/milcho0604/EMOJI-POCKET) · [스토어](https://chromewebstore.google.com/detail/%EC%9D%B4%EB%AA%A8%EC%A7%80-%ED%8F%AC%EC%BC%93-emoji-pocket/nopjdllffljcogdfcilmhhbjjjanoccj?hl=ko) |
-| Pop-up-store | 팝업 스토어 정보 확인 서비스 | AWS EC2 | Monolithic | - | 24.09 ~ ing | [바로가기](https://github.com/milcho0604/Pop-up-store) |
+</div>
 
----
+## About me
 
-## 🛠️ 기술 스택
+협업툴 **FLOW**의 백엔드 개발자로 일하며, 메시징 신뢰성·성능·관측 가능성과 운영 자동화에 관심이 많습니다.<br>
+불편을 발견하면 재현 가능한 증거를 만들고, 코드와 도구로 끝까지 해결하는 편입니다.
 
-### Languages
-![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+I am a backend engineer working on **FLOW**, a collaboration platform. My interests include messaging reliability, performance, observability, and operational automation. I enjoy turning hard-to-reproduce production problems into measurable evidence and maintainable solutions.
 
-### Frameworks & Libraries
-![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat&logo=spring&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat&logo=nestjs&logoColor=white)
-![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat&logo=react&logoColor=black)
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white)
+## Featured project — [모일까? (moilga)](https://moilga.com)
 
-### DevOps & Infrastructure
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
+> 친구들이 모일 날짜를 회원가입 없이 링크 하나로 정하는 실시간 일정 투표 서비스<br>
+> A real-time group scheduling app that works with one link and no sign-up.
 
-### Monitoring
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)
+[**Live service**](https://moilga.com) · [**Source code**](https://github.com/milcho0604/daypoll)
 
-### Databases & Messaging
-![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat&logo=mariadb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
-![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat&logo=apache-kafka&logoColor=white)
+<p align="center">
+  <img src="assets/moilga-main.png" alt="moilga latest main screen" width="320">
+  &nbsp;
+  <img src="assets/moilga-results.png" alt="moilga live poll results with ranked dates" width="320">
+</p>
 
----
+- 직접 기획·개발·운영하는 개인 프로젝트로, 회원가입 없이 날짜별·사람별 실시간 투표부터 일정 확정과 `.ics` 내보내기까지 제공합니다.
+- 닉네임과 선택형 PIN으로 여러 기기에서 투표를 복원하고, Socket.IO와 폴링 fallback으로 결과를 실시간 동기화합니다.
+- **Next.js 16, NestJS 11, PostgreSQL 16** 기반으로 API·DB·백업을 Docker에서 직접 운영하며, Cloudflare Tunnel·CI/CD·uptime 점검·백업과 데이터 정리를 자동화했습니다.
 
-## 📊 GitHub Stats
+## Open source contributions
 
-<p align=left><img src=https://komarev.com/ghpvc/?username=milcho0604 alt=milcho0604 /></p>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=milcho0604&layout=compact&bg_color=30,333333,000000&title_color=fff&text_color=fff&theme=radical">
+**3 merged · 1 awaiting review**
 
-## 🧩 BaekJoon
-[![Solved.ac/golf1585](http://mazassumnida.wtf/api/generate_badge?boj=golf1585)](https://solved.ac/golf1585)
+- **VeXell/pm2-prom-module** · [✅ Merged PR #16](https://github.com/VeXell/pm2-prom-module/pull/16)<br>
+  Fixed stale dynamic metric snapshots when a metric becomes an empty series.
+- **VeXell/pm2-prom-module-client** · [✅ Merged PR #1](https://github.com/VeXell/pm2-prom-module-client/pull/1)<br>
+  Replaced an `any` IPC metrics payload with a type inferred from `prom-client`.
+- **prometheus/client_js** · [✅ Merged PR #786](https://github.com/prometheus/client_js/pull/786)<br>
+  Exported public metric types and added TypeScript consumer coverage.
+- **Microsoft TypeScript Website** · [🟡 PR #3615 · awaiting review](https://github.com/microsoft/TypeScript-Website/pull/3615)<br>
+  Documented implicit export visibility in declaration-file modules with verified examples.
 
-## 🌱 Contributions
+## Selected projects
+
+### 🏥 [TODAKTODAK](https://github.com/milcho0604/TodakTodak_backend)
+
+실시간 소아과 예약·대기 현황과 비대면 진료를 구현한 팀 프로젝트로, **한화시스템 BEYOND SW Camp 7기 최종 프로젝트 1위**를 수상했습니다.<br>
+A real-time pediatric reservation and telemedicine platform. **1st-place final project at Hanwha Systems BEYOND SW Camp.**
+
+**Role:** Backend · Frontend · Deployment<br>
+`Spring` `Vue.js` `Kubernetes` `Kafka` `Prometheus` `Grafana` · [Frontend](https://github.com/milcho0604/TodakTodak_frontend)
+
+### 🥗 [MealPlan](https://github.com/milcho0604/MealPlanning)
+
+가족·그룹이 식단과 냉장고 재료, 쇼핑 목록을 함께 관리하고 알림을 받는 개인 프로젝트입니다.<br>
+A personal mobile project for shared meal planning, pantry management, shopping lists, and scheduled notifications.
+
+`React Native` `Expo` `NestJS` `Turborepo` `Supabase` `AWS S3`
+
+### 🧩 Published Chrome extensions
+
+- **[Universal Decoder](https://github.com/milcho0604/universal-decoder)** — URL, Base64, JWT 등 10가지 이상의 인코딩을 자동 감지해 로컬에서 디코딩합니다. [Chrome Web Store](https://chromewebstore.google.com/detail/universal-decoder-all-in/ghkcchkhafjdhahkmkbakfedbbifdibb)
+- **[Emoji Pocket](https://github.com/milcho0604/EMOJI-POCKET)** — 한글·영문 검색, 즐겨찾기, 최근 사용과 기기 간 동기화를 지원합니다. [Chrome Web Store](https://chromewebstore.google.com/detail/%EC%9D%B4%EB%AA%A8%EC%A7%80-%ED%8F%AC%EC%BC%93/nopjdllffljcogdfcilmhhbjjjanoccj)
+
+## Tech I work with
+
+**Backend**
+
+![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=000)
+![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+
+**Data & messaging**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+
+**Platform & operations**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+**Observability**
+
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+![k6](https://img.shields.io/badge/k6-7D64FF?style=flat-square&logo=k6&logoColor=white)
+
+**Frontend & mobile**
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=000)
+
+<details>
+<summary>More activity</summary>
+
+<br>
+
+[![Solved.ac profile](http://mazassumnida.wtf/api/generate_badge?boj=golf1585)](https://solved.ac/golf1585)
+
 <a href="https://github.com/devxb/gitanimals">
-  <img src="https://render.gitanimals.org/farms/milcho0604" width="600" height="300"/>
+  <img src="https://render.gitanimals.org/farms/milcho0604" width="600" alt="GitAnimals farm">
 </a>
+
+</details>
