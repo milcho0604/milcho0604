@@ -50,7 +50,7 @@ I am a backend engineer working on **FLOW**, a collaboration platform. My intere
 
 ## Selected projects
 
-### [TODAKTODAK](https://github.com/milcho0604/TodakTodak_backend)
+### 🏥 [TODAKTODAK](https://github.com/milcho0604/TodakTodak_backend)
 
 실시간 소아과 예약·대기 현황과 비대면 진료를 구현한 팀 프로젝트로, **한화시스템 BEYOND SW Camp 7기 최종 프로젝트 1위**를 수상했습니다.<br>
 A real-time pediatric reservation and telemedicine platform. **1st-place final project at Hanwha Systems BEYOND SW Camp.**
@@ -58,14 +58,14 @@ A real-time pediatric reservation and telemedicine platform. **1st-place final p
 **Role:** Backend · Frontend · Deployment<br>
 `Spring` `Vue.js` `Kubernetes` `Kafka` `Prometheus` `Grafana` · [Frontend](https://github.com/milcho0604/TodakTodak_frontend)
 
-### [MealPlan](https://github.com/milcho0604/MealPlanning)
+### 🥗 [MealPlan](https://github.com/milcho0604/MealPlanning)
 
 가족·그룹이 식단과 냉장고 재료, 쇼핑 목록을 함께 관리하고 알림을 받는 개인 프로젝트입니다.<br>
 A personal mobile project for shared meal planning, pantry management, shopping lists, and scheduled notifications.
 
 `React Native` `Expo` `NestJS` `Turborepo` `Supabase` `AWS S3`
 
-### Published Chrome extensions
+### 🧩 Published Chrome extensions
 
 - **[Universal Decoder](https://github.com/milcho0604/universal-decoder)** ([Chrome Web Store](https://chromewebstore.google.com/detail/universal-decoder-all-in/ghkcchkhafjdhahkmkbakfedbbifdibb)): URL, Base64, JWT 등 10가지 이상의 인코딩을 자동 감지해 로컬에서 디코딩합니다.
 - **[Emoji Pocket](https://github.com/milcho0604/EMOJI-POCKET)** ([Chrome Web Store](https://chromewebstore.google.com/detail/%EC%9D%B4%EB%AA%A8%EC%A7%80-%ED%8F%AC%EC%BC%93/nopjdllffljcogdfcilmhhbjjjanoccj)): 한글·영문 검색, 즐겨찾기, 최근 사용과 기기 간 동기화를 지원합니다.
