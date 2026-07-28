@@ -25,7 +25,11 @@ I am a backend engineer working on **FLOW**, a collaboration platform. My intere
 
 [**Live service**](https://moilga.com) · [**Source code**](https://github.com/milcho0604/daypoll)
 
-<p align="center"><img src="assets/moilga-main.png" alt="moilga latest main screen" width="320">&nbsp;<img src="assets/moilga-results.png" alt="moilga live poll results with ranked dates" width="320"></p>
+<p>
+  <img src="assets/moilga-main.png" alt="moilga latest main screen" width="360" align="left">
+  <img src="assets/moilga-results.png" alt="moilga live poll results with ranked dates" width="360" align="right">
+</p>
+<br clear="all">
 
 - 직접 기획·개발·운영하는 개인 프로젝트로, 회원가입 없이 날짜별·사람별 실시간 투표부터 일정 확정과 `.ics` 내보내기까지 제공합니다.
 - 닉네임과 선택형 PIN으로 여러 기기에서 투표를 복원하고, Socket.IO와 폴링 fallback으로 결과를 실시간 동기화합니다.
@@ -68,22 +72,10 @@ A personal mobile project for shared meal planning, pantry management, shopping 
 
 ## Technologies
 
-**Backend**
-
-![Java](https://img.shields.io/badge/Java-18181B?style=flat-square&logo=openjdk&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-18181B?style=flat-square&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-18181B?style=flat-square&logo=javascript&logoColor=white) ![Spring](https://img.shields.io/badge/Spring-18181B?style=flat-square&logo=spring&logoColor=white) ![NestJS](https://img.shields.io/badge/NestJS-18181B?style=flat-square&logo=nestjs&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-18181B?style=flat-square&logo=nodedotjs&logoColor=white)
-
-**Data & messaging**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-18181B?style=flat-square&logo=postgresql&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB-18181B?style=flat-square&logo=mariadb&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-18181B?style=flat-square&logo=redis&logoColor=white) ![Kafka](https://img.shields.io/badge/Kafka-18181B?style=flat-square&logo=apachekafka&logoColor=white)
-
-**Platform & operations**
-
-![Docker](https://img.shields.io/badge/Docker-18181B?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-18181B?style=flat-square&logo=kubernetes&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-18181B?style=flat-square&logo=amazonwebservices&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-18181B?style=flat-square&logo=cloudflare&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-18181B?style=flat-square&logo=githubactions&logoColor=white)
-
-**Observability**
-
-![Prometheus](https://img.shields.io/badge/Prometheus-18181B?style=flat-square&logo=prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-18181B?style=flat-square&logo=grafana&logoColor=white) ![k6](https://img.shields.io/badge/k6-18181B?style=flat-square&logo=k6&logoColor=white)
-
-**Frontend & mobile**
-
-![Next.js](https://img.shields.io/badge/Next.js-18181B?style=flat-square&logo=nextdotjs&logoColor=white) ![Vue.js](https://img.shields.io/badge/Vue.js-18181B?style=flat-square&logo=vuedotjs&logoColor=white) ![React Native](https://img.shields.io/badge/React_Native-18181B?style=flat-square&logo=react&logoColor=white)
+| Area | Technologies |
+|---|---|
+| **Backend** | ![Java](https://img.shields.io/badge/Java-18181B?style=flat-square&logo=openjdk&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-18181B?style=flat-square&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-18181B?style=flat-square&logo=javascript&logoColor=white) ![Spring](https://img.shields.io/badge/Spring-18181B?style=flat-square&logo=spring&logoColor=white) ![NestJS](https://img.shields.io/badge/NestJS-18181B?style=flat-square&logo=nestjs&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-18181B?style=flat-square&logo=nodedotjs&logoColor=white) |
+| **Data & messaging** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-18181B?style=flat-square&logo=postgresql&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB-18181B?style=flat-square&logo=mariadb&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-18181B?style=flat-square&logo=redis&logoColor=white) ![Kafka](https://img.shields.io/badge/Kafka-18181B?style=flat-square&logo=apachekafka&logoColor=white) |
+| **Platform & operations** | ![Docker](https://img.shields.io/badge/Docker-18181B?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-18181B?style=flat-square&logo=kubernetes&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-18181B?style=flat-square&logo=amazonwebservices&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-18181B?style=flat-square&logo=cloudflare&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-18181B?style=flat-square&logo=githubactions&logoColor=white) |
+| **Observability** | ![Prometheus](https://img.shields.io/badge/Prometheus-18181B?style=flat-square&logo=prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-18181B?style=flat-square&logo=grafana&logoColor=white) ![k6](https://img.shields.io/badge/k6-18181B?style=flat-square&logo=k6&logoColor=white) |
+| **Frontend & mobile** | ![Next.js](https://img.shields.io/badge/Next.js-18181B?style=flat-square&logo=nextdotjs&logoColor=white) ![Vue.js](https://img.shields.io/badge/Vue.js-18181B?style=flat-square&logo=vuedotjs&logoColor=white) ![React Native](https://img.shields.io/badge/React_Native-18181B?style=flat-square&logo=react&logoColor=white) |
