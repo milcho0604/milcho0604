@@ -37,8 +37,10 @@ I am a backend engineer working on **FLOW**, a collaboration platform. My intere
 
 ## Open source contributions
 
-**3 merged · 1 awaiting review**
+**4 merged · 1 awaiting review**
 
+- **redis/ioredis** · [Merged · PR #2158](https://github.com/redis/ioredis/pull/2158) · [Released in v6.0.0](https://github.com/redis/ioredis/releases/tag/v6.0.0)<br>
+  Exported three public API types with compile-time coverage; shipped to npm as `ioredis@6.0.0`.
 - **VeXell/pm2-prom-module** · [Merged · PR #16](https://github.com/VeXell/pm2-prom-module/pull/16)<br>
   Fixed stale dynamic metric snapshots when a metric becomes an empty series.
 - **VeXell/pm2-prom-module-client** · [Merged · PR #1](https://github.com/VeXell/pm2-prom-module-client/pull/1)<br>
