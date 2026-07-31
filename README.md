@@ -58,7 +58,7 @@ I am a backend engineer working on **FLOW**, a collaboration platform. My intere
 A real-time pediatric reservation and telemedicine platform. **1st-place final project at Hanwha Systems BEYOND SW Camp.**
 
 **Role:** Backend · Frontend · Deployment<br>
-`Spring` `Vue.js` `Kubernetes` `Kafka` `Prometheus` `Grafana` · [Frontend](https://github.com/milcho0604/TodakTodak_frontend)
+`Spring` `Vue.js` `Kubernetes` `Kafka` `Prometheus` `Grafana` · [![Frontend Repo](https://img.shields.io/badge/Frontend_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/milcho0604/TodakTodak_frontend)
 
 ### 🥗 [MealPlan](https://github.com/milcho0604/MealPlanning)
 
