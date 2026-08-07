@@ -37,7 +37,7 @@ I am a backend engineer working on **FLOW**, a collaboration platform. My intere
 
 ## Open source contributions
 
-**5 merged · 2 in review**
+**5 merged · 1 approved · 1 awaiting review**
 
 - **redis/ioredis** · [Merged · PR #2158](https://github.com/redis/ioredis/pull/2158) · [Released in v6.0.0](https://github.com/redis/ioredis/releases/tag/v6.0.0)<br>
   Exported three public API types with compile-time coverage; shipped to npm as `ioredis@6.0.0`.
@@ -49,7 +49,7 @@ I am a backend engineer working on **FLOW**, a collaboration platform. My intere
   Replaced an `any` IPC metrics payload with a type inferred from `prom-client`.
 - **prometheus/client_js** · [Merged · PR #786](https://github.com/prometheus/client_js/pull/786)<br>
   Exported public metric types and added TypeScript consumer coverage.
-- **prometheus/client_js** · [In review · PR #798](https://github.com/prometheus/client_js/pull/798)<br>
+- **prometheus/client_js** · [Approved · awaiting merge · PR #798](https://github.com/prometheus/client_js/pull/798)<br>
   Normalizes non-string labels once at storage so generated Prometheus exposition stays valid without adding render-path overhead.
 - **Microsoft TypeScript Website** · [Awaiting review · PR #3615](https://github.com/microsoft/TypeScript-Website/pull/3615)<br>
   Documented implicit export visibility in declaration-file modules with verified examples.
