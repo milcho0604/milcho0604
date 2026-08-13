@@ -56,6 +56,16 @@ I am a backend engineer working on **FLOW**, a collaboration platform. My intere
 
 ## Selected projects
 
+### 🔌 [velog-mcp](https://github.com/milcho0604/velog-mcp)
+
+Velog의 글 조회·초안·발행·백업·통계와 다이어그램·커버 렌더링을 지원하는 공개 MCP 서버입니다.<br>
+A public MCP server for reading, drafting, publishing, backing up, and rendering visuals for Velog content.
+
+공개 발행은 사용자가 직접 활성화해야 하며, npm 패키지와 Claude Code 플러그인으로 배포합니다.<br>
+Public publishing requires explicit opt-in; distributed through npm and a Claude Code plugin.
+
+`TypeScript` `Node.js 24` `MCP` `GraphQL` · [npm v0.4.2](https://www.npmjs.com/package/@milcho0604/velog-mcp) · **276 tests**
+
 ### 🏥 [TODAKTODAK](https://github.com/milcho0604/TodakTodak_backend)
 
 실시간 소아과 예약·대기 현황과 비대면 진료를 구현한 팀 프로젝트로, **한화시스템 BEYOND SW Camp 7기 최종 프로젝트 1위**를 수상했습니다.<br>
