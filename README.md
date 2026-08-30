@@ -51,8 +51,6 @@ I am a backend engineer working on **FLOW**, a collaboration platform. My intere
   Exported public metric types and added TypeScript consumer coverage.
 - **prometheus/client_js** · [Approved · awaiting merge · PR #798](https://github.com/prometheus/client_js/pull/798)<br>
   Normalizes non-string labels once at storage so generated Prometheus exposition stays valid without adding render-path overhead.
-- **Microsoft TypeScript Website** · [Awaiting review · PR #3615](https://github.com/microsoft/TypeScript-Website/pull/3615)<br>
-  Documented implicit export visibility in declaration-file modules with verified examples.
 
 ## Selected projects
 
