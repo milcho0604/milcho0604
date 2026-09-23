@@ -37,20 +37,28 @@ I am a backend engineer working on **FLOW**, a collaboration platform. My intere
 
 ## Open source contributions
 
-**5 merged · 1 approved · 1 awaiting review**
+**8 merged · 2 awaiting review**
 
 - **redis/ioredis** · [Merged · PR #2158](https://github.com/redis/ioredis/pull/2158) · [Released in v6.0.0](https://github.com/redis/ioredis/releases/tag/v6.0.0)<br>
   Exported three public API types with compile-time coverage; shipped to npm as `ioredis@6.0.0`.
-- **prometheus/client_js** · [Merged · PR #790](https://github.com/prometheus/client_js/pull/790)<br>
-  Replaced a declaration-only numeric enum with a runtime-aligned string union, preventing type-checked runtime failures.
-- **VeXell/pm2-prom-module** · [Merged · PR #16](https://github.com/VeXell/pm2-prom-module/pull/16)<br>
-  Fixed stale dynamic metric snapshots when a metric becomes an empty series.
-- **VeXell/pm2-prom-module-client** · [Merged · PR #1](https://github.com/VeXell/pm2-prom-module-client/pull/1)<br>
-  Replaced an `any` IPC metrics payload with a type inferred from `prom-client`.
-- **prometheus/client_js** · [Merged · PR #786](https://github.com/prometheus/client_js/pull/786)<br>
-  Exported public metric types and added TypeScript consumer coverage.
-- **prometheus/client_js** · [Approved · awaiting merge · PR #798](https://github.com/prometheus/client_js/pull/798)<br>
+- **prometheus/client_js** · [Merged · PR #798](https://github.com/prometheus/client_js/pull/798)<br>
   Normalizes non-string labels once at storage so generated Prometheus exposition stays valid without adding render-path overhead.
+- **prometheus/client_js** · [Merged · PR #815](https://github.com/prometheus/client_js/pull/815)<br>
+  Renders the histogram export straight from the store iterator, dropping an intermediate array allocation on the export path.
+- **prometheus/client_js** · [Merged · PR #804](https://github.com/prometheus/client_js/pull/804)<br>
+  Avoids label array manipulation in the registry happy path.
+- **prometheus/client_js** · [Merged · PR #790](https://github.com/prometheus/client_js/pull/790) · Released in `@prometheus-io/client@0.16.0`<br>
+  Replaced a declaration-only numeric enum with a runtime-aligned string union, preventing type-checked runtime failures.
+- **prometheus/client_js** · [Merged · PR #786](https://github.com/prometheus/client_js/pull/786) · Released in `@prometheus-io/client@0.16.0`<br>
+  Exported public metric types and added TypeScript consumer coverage.
+- **VeXell/pm2-prom-module** · [Merged · PR #16](https://github.com/VeXell/pm2-prom-module/pull/16) · Released in `2.7.3`<br>
+  Fixed stale dynamic metric snapshots when a metric becomes an empty series.
+- **VeXell/pm2-prom-module-client** · [Merged · PR #1](https://github.com/VeXell/pm2-prom-module-client/pull/1) · Released in `1.0.4`<br>
+  Replaced an `any` IPC metrics payload with a type inferred from `prom-client`.
+- **firebase/firebase-admin-node** · [Awaiting review · PR #3229](https://github.com/firebase/firebase-admin-node/pull/3229)<br>
+  Surfaces the APNs guidance for `THIRD_PARTY_AUTH_ERROR` instead of a bare error code.
+- **microsoft/TypeScript-Website** · [Awaiting review · PR #3615](https://github.com/microsoft/TypeScript-Website/pull/3615)<br>
+  Documents implicit export visibility in `.d.ts` declaration files.
 
 ## Selected projects
 
@@ -62,7 +70,7 @@ A public MCP server for reading, drafting, publishing, backing up, and rendering
 공개 발행은 사용자가 직접 활성화해야 하며, npm 패키지와 Claude Code 플러그인으로 배포합니다.<br>
 Public publishing requires explicit opt-in; distributed through npm and a Claude Code plugin.
 
-`TypeScript` `Node.js 24` `MCP` `GraphQL` · [npm v0.4.2](https://www.npmjs.com/package/@milcho0604/velog-mcp) · **276 tests**
+`TypeScript` `Node.js 22.18+` `MCP` `GraphQL` · [npm v0.9.5](https://www.npmjs.com/package/@milcho0604/velog-mcp) · **683 tests**
 
 ### 🏥 [TODAKTODAK](https://github.com/milcho0604/TodakTodak_backend)
 
