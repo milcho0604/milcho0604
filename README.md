@@ -72,6 +72,22 @@ Public publishing requires explicit opt-in; distributed through npm and a Claude
 
 `TypeScript` `Node.js 22.18+` `MCP` `GraphQL` · [npm v0.9.5](https://www.npmjs.com/package/@milcho0604/velog-mcp) · **683 tests**
 
+### 🧚 [페어리 (Fairy)](https://github.com/milcho0604/fairy)
+
+화면 위를 돌아다니는 작은 페어리가 할 일·일정·메모를 챙겨 주는 데스크톱 비서입니다.<br>
+A desktop companion that helps manage to-dos, events, and notes through a little fairy living on your screen.
+
+Claude Code·Codex 등 AI CLI와 로컬 AI를 연결하고, MCP로 할 일·메모·일정을 다룰 수 있습니다.<br>
+Connects AI CLIs such as Claude Code and Codex or an on-device AI, with MCP integration for to-dos, notes, and events.
+
+<p align="center">
+  <a href="https://fairy.moilga.com">
+    <img src="https://raw.githubusercontent.com/milcho0604/fairy/main/docs/assets/screens/desktop.png" alt="Fairy desktop app with three companions, a daily planning panel, and an event reminder" width="780">
+  </a>
+</p>
+
+`Electron` `TypeScript` `React` `MCP` `Local AI` · [홈페이지 / Website](https://fairy.moilga.com) · [다운로드 / Download](https://fairy.moilga.com/download/)
+
 ### 🏥 [TODAKTODAK](https://github.com/milcho0604/TodakTodak_backend)
 
 실시간 소아과 예약·대기 현황과 비대면 진료를 구현한 팀 프로젝트로, **한화시스템 BEYOND SW Camp 7기 최종 프로젝트 1위**를 수상했습니다.<br>
