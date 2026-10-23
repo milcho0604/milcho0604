@@ -45,7 +45,7 @@ I am a backend engineer working on **FLOW**, a collaboration platform. My intere
   Normalizes non-string labels once at storage so generated Prometheus exposition stays valid without adding render-path overhead.
 - **prometheus/client_js** · [Merged · PR #815](https://github.com/prometheus/client_js/pull/815)<br>
   Renders the histogram export straight from the store iterator, dropping an intermediate array allocation on the export path.
-- **prometheus/client_js** · [Merged · PR #804](https://github.com/prometheus/client_js/pull/804)<br>
+- **prometheus/client_js** · [Merged · PR #804](https://github.com/prometheus/client_js/pull/804) · [Released in `@prometheus-io/client@0.16.0`](https://github.com/prometheus/client_js/releases/tag/v0.16.0)<br>
   Avoids label array manipulation in the registry happy path.
 - **prometheus/client_js** · [Merged · PR #790](https://github.com/prometheus/client_js/pull/790) · Released in `@prometheus-io/client@0.16.0`<br>
   Replaced a declaration-only numeric enum with a runtime-aligned string union, preventing type-checked runtime failures.
